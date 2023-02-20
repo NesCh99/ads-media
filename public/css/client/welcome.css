@@ -1,0 +1,204 @@
+
+/* =========== General ============= */
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("/css/fonts/SourceSansPro-Regular.ttf") format('truetype');
+            font-weight: normal;
+            font-style: normal;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Source Sans Pro'!important;
+	font-style: normal;
+	line-height: 23px;
+	color: #727272;
+	background-color:#000;
+}
+/* a link Styles
+ ------------------------------ */
+ 
+a, .btn {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:hover {
+	text-decoration: none;
+}
+a:focus, a:hover {
+	color: #5a5959;
+}
+a {
+	outline: medium none !important;
+	color: #727272;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+/* Headungs
+ ------------------------------ */
+ 
+h1, h3, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: #272727;
+}
+h1 a, h3 a, h5 a, h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 300;
+}
+h3 {
+	font-size: 27px;
+	line-height: 30px;
+	margin-bottom: 18px;
+	font-style: normal;
+}
+h5 {
+	font-size: 18px;
+	line-height: 23px;
+	margin-bottom: 16px;
+	font-style: normal;
+}
+h6 {
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 14px;
+	font-style: normal;
+}
+.h1, .h3, h1, h3 {
+	margin-top: 0;
+}
+
+.header{
+	position:relative;
+	width:100%;
+	text-align:center;
+	height:800px;
+	padding:50px 0 0 0;
+	margin:0 0 25px 0;
+	float:left;
+	background:url(/img/cover.png) center top no-repeat;
+	}
+.header{
+	background-size:100%;
+	}
+
+
+	
+.header::after{
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(358.69deg, #000000 17.44%, rgba(255, 255, 255, 0) 97.85%);
+}
+.header .logo{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	padding:150px 0 0 0;
+	margin:0px;
+	z-index:5;
+	}
+	
+.header .logo a{
+	font-family: 'Source Sans Pro'!important;
+	text-align:center;
+	padding:15px 40px;
+	margin:0px;
+	color:#fff;
+	margin-right:25px;
+	margin-top:30px;
+	font-size:14px;
+	display: inline-block;
+	text-transform:uppercase;
+	text-decoration:none;
+	background: linear-gradient(90deg, #06BFFF 0%, #2D74FF 100%);
+	border-radius:2px;
+	}
+.header .logo a:hover{
+	color:white;
+	background:linear-gradient(90deg, #03B5F2 0%, #1262FF 100%);
+	}
+.header .logo .title{
+	font-family: 'Source Sans Pro'!important;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	color:#fff;
+	font-weight:bold;
+	font-size:48px;
+	text-transform:uppercase;
+	}
+.header .logo .title span{
+	color:#38c4ff;
+	}	
+.header .logo .subtitle{
+	font-family: 'Source Sans Pro'!important;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	color:#fff;
+	font-weight:400;
+	font-size:30px;
+	}
+
+.top-small span{
+	color:#a3a3a3;
+	
+	}	
+/* thumbs */	
+
+/*button two*/
+	
+/*button three*/	
+	
+/*button four*/	
+/*button five*/	
+
+	
+	
+/* footer */	
+	
+section{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}	
+	
+.sec-padding{ 
+padding:80px 0;
+}	
+	
+/* scroll up */	
+	
+	
+.text-white{ color:#fff;}
+
+.uppercase{ text-transform:uppercase;}
+	
+.title{ font-weight:700;}	
+
+.title span{
+	color:#434190;
+}
+	
+	
+/* feature box 29
+ ------------------------------ */
+	
+/* features list
+ ------------------------------ */
