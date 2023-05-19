@@ -57,7 +57,7 @@
             <a class="navbar-brand d-none d-lg-block" href="{{ route('cliente.home') }}">
                 <div class="d-flex align-items-center s-14 l-s-2">
                     <img src="{{ asset('img/logo.png') }}" alt="" width="50px" class="mx-2">
-                    <span>ADS SPORTS</span>
+                    <span>ADS Media</span>
 
                 </div>
 

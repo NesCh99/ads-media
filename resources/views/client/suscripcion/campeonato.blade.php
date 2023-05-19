@@ -338,7 +338,7 @@
 
                                                     <div class="relative mb-5">
                                                         <h1 class="mb-2 text-primary">Detalles de Facturación</h1>
-                                                        <p>ADS SPORTS recopila y utiliza datos personales de acuerdo con
+                                                        <p>ADS Media recopila y utiliza datos personales de acuerdo con
                                                             nuestra <a href="{{route('cliente.empresa.politicas')}}" target="_blank" rel="noopener noreferrer"  class="text-primary"> Política de Privacidad </a>. Al crear una cuenta, usted
                                                             acepta nuestras <a href="{{route('cliente.empresa.terminos')}}" target="_blank" rel="noopener noreferrer" class="text-primary"> Condiciones de Uso.</a>
                                                         </p>

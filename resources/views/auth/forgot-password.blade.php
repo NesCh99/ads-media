@@ -41,8 +41,8 @@
         </form>
         <br>
         <div class="text-sm text-slate-500 text-slate-400 font-semibold py-3 text-center">
-            Copyright © <span id="get-current-year">2022</span><a href="#"
-                class=" text-slate-500 text-slate-400 hover:text-slate-500  " target="_blank"> ADS SPORTS
+            Copyright © <span id="get-current-year">2023</span><a href="#"
+                class=" text-slate-500 text-slate-400 hover:text-slate-500  " target="_blank"> ADS Media
         </div>
     </x-jet-authentication-card>
 </x-guest-layout>

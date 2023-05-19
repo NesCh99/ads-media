@@ -10,7 +10,7 @@
 
 
     <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200" style="padding-top: 10px">
-        ADS SPORTS PAGOS POR EVENTOS
+        ADS Media PAGOS POR EVENTOS
     </h2>
 
 

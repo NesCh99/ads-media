@@ -11,7 +11,7 @@ class ContraseñaAdminRecibida extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $subject = '[ADS SPORTS] Nuevo Administrador.';
+    public $subject = '[ADS Media] Nuevo Administrador.';
 
     public $msg;
 

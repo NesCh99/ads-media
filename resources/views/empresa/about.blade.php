@@ -694,7 +694,7 @@
                     <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
                         Nuestros Servicios
                     </h2>
-                    <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-justify">ADS SPORTS está enfocada al
+                    <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-justify">ADS Media está enfocada al
                         entretenimiento de su audiencia mediate la transmisión en vivo de eventos deportivos, a cargo de
                         la empresa ADS PUBLICIDAD que tambien aferta a su audiencia los siguientes servicios.
                     </p>

@@ -18,22 +18,21 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-           'name' => 'ADS SPORTS',
+           'name' => 'Nestor Chela',
            'type' => User::ADMIN,
-           'email' => 'admin@admin.com',
-           'password' => bcrypt( '12345678'),
+           'email' => 'neschp@gmail.com',
+           'password' => bcrypt( 'neschcb1499'),
            'email_verified_at' => now(),
 
         ])->assignRole('Administrador');
         User::create([
-            'name' => 'Nestor Chela',
+            'name' => 'Marco Vargas',
             'type' => User::ADMIN,
-            'email' => 'administrador@admin.com',
-            'expiration_date' => '2099-01-01',
+            'email' => 'mvargasc999@gmail.com',
             'password' => Hash::make('12345678'),
             'email_verified_at' => now(),
         ])->assignRole('Administrador');
-        User::create([
+        /* User::create([
             'name' => 'Klever Castillo',
             'type' => User::ADMIN,
             'email' => 'gestor@admin.com',
@@ -48,7 +47,7 @@ class UserSeeder extends Seeder
             'password' => Hash::make('12345678'),
             'email_verified_at' => now(),
         ]);
-        User::factory(10)->create();
+        User::factory(10)->create(); */
 
     }
 }

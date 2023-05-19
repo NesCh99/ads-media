@@ -4,7 +4,7 @@
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-left lg:text-left">
             <div class="w-full lg:w-6/12 px-4">
-                <h4 class="text-3xl fonat-semibold text-gray-100">ADS SPORTS</h4>
+                <h4 class="text-3xl fonat-semibold text-gray-100">ADS Media</h4>
                 <h5 class="text-lg mt-0 mb-2 text-gray-200">
                     !Vive el Deporte¡
                 </h5>
@@ -106,8 +106,8 @@
         <div class="flex flex-wrap items-center md:justify-between justify-center">
             <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                 <div class="text-sm text-gray-500 font-semibold py-1">
-                    Copyright © <span id="get-current-year">2022</span><a class="text-gray-500hover:text-gray-800"
-                        target="_blank"> ADS SPORTS
+                    Copyright © <span id="get-current-year">2023</span><a class="text-gray-500hover:text-gray-800"
+                        target="_blank"> ADS Media
                         <a href="https://www.creative-tim.com?ref=njs-profile"
                             class="text-gray-500hover:text-blueGray-800"></a>.
                 </div>

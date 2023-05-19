@@ -22,8 +22,8 @@
 				<div class="clearfix"></div>
 				<div class="margin_top3"></div>
 				<br>
-				<h6 class="top-small"><span>Campeonatos y Eventos Deportivos  que te encantan.</span></h6>
-				<h3 class="subtitle">¿Qué quieres ver? <br> Campeonatos de estreno y Deportes en vivo desde ADS SPORTS.</h3>
+				<h6 class="top-small"><span>Campeonatos y Eventos Deportivos</span></h6>
+				<h3 class="subtitle">¿Qué quieres ver? <br> Campeonatos y eventos deportivos en ADS Media.</h3>
 				<br>
 
                    @if (Route::has('login'))
@@ -36,7 +36,7 @@
                         <a href="{{ route('login') }}" class="wow pulse " data-wow-offset="20"  data-wow-iteration="20">Iniciar Sesión<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                         @if (Route::has('register'))
 
-                            <a href="{{ route('register') }}" class="wow pulse " data-wow-offset="20"  data-wow-iteration="20" >Suscribirse <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="{{ route('register') }}" class="wow pulse " data-wow-offset="20"  data-wow-iteration="20" >Registrarse <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                         @endif
                     @endauth
                 
@@ -50,13 +50,13 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="sec-title-container text-center">
-							<h5 class="font-weight-4 less-mar-1 line-height-4 text-white opacity-5">ADS SPORTS</h5>
-							<h1 class="font-weight-6 less-mar-1 line-height-5 text-white">Los mejores torneos de fútbol en vivo a nivel nacional <br> y eventos exclusivos.
+							<h5 class="font-weight-4 less-mar-1 line-height-4 text-white opacity-5">ADS Media</h5>
+							<h1 class="font-weight-6 less-mar-1 line-height-5 text-white">Eventos deportivos exclusivos
 							
 							</h1>
 							<div class="clearfix"></div>
 							<br><br>
-							<a class="btn btn-prim btn-medium uppercase" href="{{ route('register') }}"><i class="fa fa-play-circle" aria-hidden="true"></i> Subscribete ! </a> 
+							<a class="btn btn-prim btn-medium uppercase" href="{{ route('register') }}"><i class="fa fa-play-circle" aria-hidden="true"></i> Inicia aquí ! </a> 
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -65,7 +65,7 @@
 					<div class="col-md-6 col-centered text-center">
 						
 						<div class="clearfix"></div>
-						<p>Copyright © 2022 <a href="{{ route('cliente.home')}}">Ads Publiciad</a> | Todos los derechos reservados.</p>
+						<p>Copyright © 2023 <a href="{{ route('cliente.home')}}">Ads Publicidad</a> | Todos los derechos reservados.</p>
 					</div>
 					<!--end item-->
 					<div class="clearfix"></div>

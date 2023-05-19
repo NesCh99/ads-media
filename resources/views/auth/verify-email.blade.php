@@ -13,7 +13,7 @@
 
 
 
-        <div class=" mb-4 text-sm ml-2  text-slate-900 text-slate-400  font-medium tracking-tight">
+        <div class=" mb-4 text-sm ml-2  text-white  font-medium tracking-tight">
             {{ __('Before continuing, could you verify your email address by clicking on the link we just emailed to you? If you didnt receive the email, we will gladly send you another.') }}
         </div>
 
@@ -33,28 +33,11 @@
                     </x-jet-button>
                 </div>
             </form>
-
-            <div>
-                <a
-                    href="{{ route('profile.show') }}"
-                    class="underline text-sm text-slate-500 text-slate-400 hover:text-slate-500 "
-                >
-                    {{ __('Edit Profile') }}</a>
-
-                <form method="POST" action="{{ route('logout') }}" class="inline">
-                    @csrf
-
-                    <button type="submit" class="underline text-sm text-slate-500 text-slate-400 hover:text-slate-500ml-2">
-                        {{ __('Log Out') }}
-                    </button>
-                </form>
-                
-            </div>
         </div>
         <br>
         <div class="text-sm text-slate-500 text-slate-400 font-semibold py-3 text-center">
-            Copyright © <span id="get-current-year">2022</span><a 
-                class=" text-slate-500 text-slate-400 hover:text-slate-500" target="_blank"> ADS SPORTS
+            Copyright © <span id="get-current-year">2023</span><a 
+                class=" text-slate-500 text-slate-400 hover:text-slate-500" target="_blank"> ADS MEDIA
         </div>
     </x-jet-authentication-card>
 </x-guest-layout>

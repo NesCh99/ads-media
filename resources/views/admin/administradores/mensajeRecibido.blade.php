@@ -588,7 +588,7 @@
                                                     style="font-family:'Barlow',Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;font-weight:400;font-style:normal;color:#333333;text-decoration:none;letter-spacing:0px;">
                                                     <singleline>
                                                         <div mc:edit data-text-edit>
-                                                            Gracias por trabajar con nosotros, el equipo de ADS Sports
+                                                            Gracias por trabajar con nosotros, el equipo de ADS Media
                                                             te da la bienvenida y te desea lo mejor.
                                                         </div>
                                                     </singleline>

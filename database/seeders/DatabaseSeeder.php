@@ -19,12 +19,12 @@ class DatabaseSeeder extends Seeder
     {
 
         $this->call(RolSeeder::class);
-        $this->call(UserSeeder::class);
+        $this->call(UserSeeder::class);/* 
         $this->call(DeporteSeeder::class);
         $this->call(CampeonatoSeeder::class);
         $this->call(VideoSeeder::class);
         $this->call(PublicidadSeeder::class);
-        $this->call(ComentarioSeeder::class);
+        $this->call(ComentarioSeeder::class); */
 
         $this->call(CompanySeeder::class);
         $this->call(ServiceSeeder::class);

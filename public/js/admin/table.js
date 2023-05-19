@@ -4,7 +4,7 @@
                 dom: 'Bfrtip',
                 buttons: [{
                         extend: 'excelHtml5',
-                        title: 'BALANCE DE ADS SPORTS',
+                        title: 'BALANCE DE ADS Media',
                         autoFilter: true,
                         sheetName: 'Exported data'
 
@@ -12,7 +12,7 @@
                     },
                     {
                         extend: 'pdfHtml5',
-                        title: 'BALANCE DE ADS SPORTS',
+                        title: 'BALANCE DE ADS Media',
                         orientation: 'landscape',
                         pageSize: 'LEGAL',
                         customize: function(doc) {

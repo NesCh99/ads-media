@@ -25,6 +25,7 @@ class HomeController extends Controller
         $eventos = Video::all();
         $i = 0;
     
+        $calendario = [];
         foreach ($eventos as $video) {
     
           $calendario[$i] = ['title' => 'Evento : ' . $video->NombreVid, "start" => $video->FechaInicioVid, "url" => 'admin/videos/' . $video->idVideo];
@@ -34,9 +35,6 @@ class HomeController extends Controller
     
         $iniciar = json_encode($datenow);
         $calendario = json_encode($calendario);
-    
-
-
 
         return view('admin.index', compact('videos','iniciar','calendario'));
     }

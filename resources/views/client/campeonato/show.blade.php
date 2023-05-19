@@ -46,7 +46,7 @@
                                             Transmitido Por
                                         </h6>
                                         <p class="text-gray-700 dark:text-gray-100 text-sm font-medium">
-                                            Ads Sports
+                                            ADS Media
                                         </p>
                                     </div>
                                 </div>

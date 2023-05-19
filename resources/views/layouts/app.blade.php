@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Streaming | ADS Sports</title>
+    <title>Streaming | ADS Media</title>
     <link rel="icon" type="image/x-icon" href="/img/logo.png">
   
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}">

@@ -47,7 +47,7 @@ class PagoNotification extends Notification implements ShouldQueue
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->subject('[ADS SPORTS] Confirmación de suscripcion.')
+                    ->subject('[ADS Media] Confirmación de suscripción.')
                     ->view('client.componets.mail', ['notificacion' => $this->pago ,'cliente' => $this->user]);
     }
 

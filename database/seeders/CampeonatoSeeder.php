@@ -17,9 +17,5 @@ class CampeonatoSeeder extends Seeder
     public function run()
     {
         Campeonato::factory(5)->create();
-
-      
-
-
     }
 }
