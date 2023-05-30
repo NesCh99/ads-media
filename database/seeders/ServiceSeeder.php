@@ -17,7 +17,7 @@ class ServiceSeeder extends Seeder
     {
         Service::create([
             'name' => 'Streaming deportivo e institucional',
-            'body' => 'Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.',
+            'body' => 'Cubrimos todos los eventos deportivos e institucionales con calidad y de manera profesional, nuestro equipo se despliega a cualquier parte del país.',
             'icon' =>  random_int(1,20),
             'company_id' => 1,
 
@@ -25,8 +25,8 @@ class ServiceSeeder extends Seeder
 
 
         Service::create([
-            'name' => 'Medio digital de noticias',
-            'body' => 'Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.',
+            'name' => 'Marketing Digital',
+            'body' => 'Haz crecer tu empresa manejando las redes sociales de la manera correcta, nosotros de ayudamos a mejorar.',
             'icon' => random_int(1,20),
             'company_id' => 1,
 
@@ -35,7 +35,7 @@ class ServiceSeeder extends Seeder
 
         Service::create([
             'name' => 'Produccion y Postproducion de videos, spots',
-            'body' => 'Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.',
+            'body' => 'Convertimos tu material audiovisual en videos de alto nivel de acorde a tus necesidades y gustos',
             'icon' => random_int(1,20),
             'company_id' => 1,
 
@@ -44,7 +44,7 @@ class ServiceSeeder extends Seeder
 
         Service::create([
             'name' => 'Diseño Gráfico Multimedia Profesional',
-            'body' => 'Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.',
+            'body' => 'Nostros plasmamos tu imaginación en cotenido gráfico, para que puedas usarlo digitalmente, o imprimirlo.',
             'icon' => random_int(1,20),
             'company_id' => 1,
 
@@ -54,21 +54,11 @@ class ServiceSeeder extends Seeder
         
         Service::create([
             'name' => 'Fotografia Digital Comercial',
-            'body' => 'Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.',
+            'body' => 'Cubrimos todo tipo de eventos con nuestro equipo fotografico profesional',
             'icon' => random_int(1,20),
             'company_id' => 1,
 
         ]);
-
-
-        Service::create([
-            'name' => 'Operations',
-            'body' => 'Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.',
-            'icon' => random_int(1,20),
-            'company_id' => 1,
-
-        ]);
-
 
     }
 }

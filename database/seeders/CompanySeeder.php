@@ -16,11 +16,9 @@ class CompanySeeder extends Seeder
     public function run()
     {
         Company::create([
-            'name' => 'Somos el Canal Digital de la Agencia de Publicidad ADS',
-            'slogan' => 'From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.',
-            'information' => 'We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.
-
-            We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.',
+            'name' => 'Somos la plataforma digital de ADS Publicidad',
+            'slogan' => 'Los nuevos expertos en publicidad.',
+            'information' => 'ADS Media Comunicación / Publicidad / STREAMING DEPORTIVO E INSTITUCIONAL/ Marketing',
             'image' => '',
         ]);
     }

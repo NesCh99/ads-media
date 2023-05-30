@@ -38,7 +38,7 @@
                 </li>
                 <li>
                     <a class="text-gray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                    href="{{route('cliente.videos.index')}}" target="_blank" >Transmiciones</a>
+                    href="{{route('cliente.videos.index')}}" target="_blank" >Transmisiones</a>
                 </li>
                 <li>
                     <a class="text-gray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
