@@ -7,7 +7,7 @@ use Illuminate\Database\Seeder;
 
 use App\Models\Term;
 
-class termSeeder extends Seeder
+class TermSeeder extends Seeder
 {
       /**
        * Run the database seeds.
