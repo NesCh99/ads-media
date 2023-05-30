@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(CompanySeeder::class);
         $this->call(ServiceSeeder::class);
-        $this->call(TermSeeder::class);
+        $this->call(TermConSeeder::class);
 
         // \App\Models\User::factory(10)->create();
 
