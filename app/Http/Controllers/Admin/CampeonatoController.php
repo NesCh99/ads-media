@@ -148,9 +148,8 @@ class CampeonatoController extends Controller
     {
         $precio = $campeonato->videos->where('PrecioVid', '>', '0');
         if($precio->count()>0){
-            return 'No se puede Eliminar, tiene videos con precio';
+            return redirect()->route('admin.campeonatos.index')->with('info', $campeonato->NombreCam.' no se puede eliminar, porque tiene videos con precio mayor a 0');
         }else{
-            return 'Si se puede eliminar, no tiene videos con precio';
             $campeonato->delete();
             return redirect()->route('admin.campeonatos.index')->with('info', $campeonato->NombreCam.' se ha eliminado con éxito');
         } 
