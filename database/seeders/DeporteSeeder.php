@@ -17,7 +17,10 @@ class DeporteSeeder extends Seeder
      */
     public function run()
     {
-     Deporte::factory(2)->create();
-
+        Deporte::create([
+            'NombreDep' => 'Fútbol', 
+            'PortadaDep' => 'portada', 
+            'DescripcionDep' => 'Vive la emoción del deporte rey a través de ADS Media'
+        ]);
     }
 }

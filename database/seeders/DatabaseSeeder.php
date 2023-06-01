@@ -19,22 +19,13 @@ class DatabaseSeeder extends Seeder
     {
 
         $this->call(RolSeeder::class);
-        $this->call(UserSeeder::class);/* 
+        $this->call(UserSeeder::class);
         $this->call(DeporteSeeder::class);
         $this->call(CampeonatoSeeder::class);
         $this->call(VideoSeeder::class);
-        $this->call(PublicidadSeeder::class);
-        $this->call(ComentarioSeeder::class); */
 
         $this->call(CompanySeeder::class);
         $this->call(ServiceSeeder::class);
         $this->call(TermConSeeder::class);
-
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
     }
 }

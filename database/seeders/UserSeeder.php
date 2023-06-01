@@ -32,22 +32,5 @@ class UserSeeder extends Seeder
             'password' => Hash::make('12345678'),
             'email_verified_at' => now(),
         ])->assignRole('Administrador');
-        /* User::create([
-            'name' => 'Klever Castillo',
-            'type' => User::ADMIN,
-            'email' => 'gestor@admin.com',
-            'expiration_date' => '2022-06-21',
-            'password' => Hash::make('12345678'),
-            'email_verified_at' => now(),
-        ])->assignRole('Gestor de Contenido');
-        User::create([
-            'name' => 'Cliente',
-            'type' => User::CLIENT,
-            'email' => 'cliente@cliente.com',
-            'password' => Hash::make('12345678'),
-            'email_verified_at' => now(),
-        ]);
-        User::factory(10)->create(); */
-
     }
 }
